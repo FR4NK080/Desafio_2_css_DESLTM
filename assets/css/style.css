@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "aside main main"
+    "footer footer footer";
+}
+nav{
+    grid-area: nav;
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
